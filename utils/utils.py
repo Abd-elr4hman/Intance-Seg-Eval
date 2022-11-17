@@ -47,21 +47,6 @@ class COCO():
 
         return needed_image_annotations
 
-
-'''
-def get_images_IDS_filenames(coco_annotations_images:list):
-    """Takes coco annotaion images and returns lists of image IDS and filenames"""
-    image_IDs=[]
-    image_filenames=[]
-
-    for image in coco_annotations_images:
-        image_IDs.append(image['id'])
-        image_filenames.append(image['file_name'])
-
-    return image_IDs, image_filenames
- 
-'''
-
 def polygon2Mask(polygon:list):
     """Convert polgon to np.array"""
     polygon_point_list=[]
@@ -74,16 +59,6 @@ def polygon2Mask(polygon:list):
 
     return mask
 
-'''
-def retrieve_image_GT(image_ID:int, coco_annotations):
-    """retrieve ground truth instanve annotations for a single image"""
-    needed_image_annotations=[]
-    for annotation_instance in coco_annotations:
-        if annotation_instance['image_id']==image_ID:
-            needed_image_annotations.append(annotation_instance)
-
-    return needed_image_annotations
-'''
 
 # utils
 def single_image_anno_to_masks(single_image_anno:list):
