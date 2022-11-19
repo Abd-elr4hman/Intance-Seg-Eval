@@ -6,7 +6,7 @@ Evaluation code for instance Segmentation task.
 
 # To use
 1. Go through the installation process of TF OD API [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md).
-2. Install dependancies in requirements.py
+2. Install dependancies in requirements.txt
 
 # Acknowledgement
 This repo uses code files from [YOLOv5](https://github.com/ultralytics/yolov5) and is based on their segmentation evaluation.
