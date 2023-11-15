@@ -1,5 +1,5 @@
 # Intance-Seg-Eval
-Evaluation code for instance Segmentation task.
+Evaluation code for Computer vision instance-Segmentation and object-detection tasks.
 
 # Contents
 - [Evaluate](https://github.com/Abd-elr4hman/Intance-Seg-Eval/blob/main/Evaluate.ipynb): A notebook to Evaluate tf MaskRCNN trained on Road Distress dataset, the notebook downloads both the dataset in COCO format and the tf saved_model file first, then performs evaluation. 
